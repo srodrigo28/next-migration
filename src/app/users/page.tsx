@@ -1,8 +1,8 @@
 "use client"
 
+import axios from "axios"
 import { useEffect, useState } from "react"
 import type { User, CreateUserInput } from "@/lib/types/user"
-import axios from "axios"
 import { PencilIcon, TrashIcon, UserPlusIcon } from "@heroicons/react/24/outline"
 
 export default function UsersPage() {
